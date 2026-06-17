@@ -19,7 +19,7 @@ export class App {
     public router: Router,
     private scriptLoader: ScriptLoaderService
   ) {}
-  protected readonly title = signal('sys_aventurarte');
+  protected readonly title = signal('dashboard');
     shouldHideLayout(): boolean {
     const currentRoute = this.router.url;
     return ['/login', '/register', ''].includes(currentRoute);
