@@ -24,8 +24,8 @@ export class Login {
     private cd: ChangeDetectorRef
   ) {
 this.loginForm = this.fb.group({
-  identity: ['mario@aventurarte.site', [Validators.required]],
-  password: ['mario$2026', [Validators.required]],
+  identity: ['angeli@boquetego.store', [Validators.required]],
+  password: ['boquetego.store', [Validators.required]],
   rememberMe: [true]
 });
   }
